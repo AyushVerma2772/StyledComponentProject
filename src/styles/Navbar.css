@@ -1,0 +1,38 @@
+@media screen and (max-width:680px) {
+    .navbar {
+        position: relative;
+        width: 100%;
+        padding: 0 !important;
+        z-index: 99;
+    }
+    .logo {
+        margin: 0 2rem;
+    }
+    .menu {
+        position: absolute;
+        top: 8rem;
+        height: 20rem;
+        background-color: white;
+        flex-direction: column;
+        width: 100% !important;
+        height: 40rem;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .hamburger {
+        display: block !important;
+        position: absolute;
+        left: 15%;
+        margin: 0 2rem;
+    }
+
+    .join-btn {
+        margin: 0 2rem;
+    }
+}
